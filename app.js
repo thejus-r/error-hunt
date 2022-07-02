@@ -1,8 +1,9 @@
 // Part #1 Point 1
-
 const express = require("express");
 const path = require("path");
 const cors = require("cors");
+
+const port = process.env.PORT || 5000;
 
 // Part #1 Point 2
 // imported module body-parser
@@ -48,6 +49,6 @@ app.get("/", function (req, res) {
   res.render("index", {});
 });
 
-app.listen(5000, () => {
+app.listen(port, () => {
   console.log("Server Ready on 3000");
 });
