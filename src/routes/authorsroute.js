@@ -63,7 +63,7 @@ authorsRouter.post("/edit", function (req, res) {
 });
 
 //router to update author
-authorsRouter.patch("/update", function (req, res) {
+authorsRouter.post("/update", function (req, res) {
   authordata.findByIdAndUpdate(
     req.body.id,
     { $set: req.body },

@@ -9,13 +9,13 @@
     "cors": "^2.8.5",
     "ejs": "^2.7.4",
     "express": "^4.17.1",
-    "mongoose": "^5.7.12",
+    "mongoose": "^5.9.13",
     "nodemon": "^2.0.18"
   },
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "aiswarya",
+  "author": "Surya Gayathri",
   "license": "ISC"
 }

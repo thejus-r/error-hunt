@@ -28,12 +28,12 @@ app.set("view engine", "ejs");
 
 // Part #2 Point 7
 // Using cors
-app.use(
-  cors({
-    origin: "https://127.0.0.1:5000",
-    optionsSuccessStatus: 200,
-  })
-);
+// app.use(
+//   cors({
+//     origin: "https://127.0.0.1:5000",
+//     optionsSuccessStatus: 200,
+//   })
+// );
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
