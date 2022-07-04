@@ -25,3 +25,7 @@
 9. I am Update and Delete operation of this project. Even though am working perfectly, am not being implemented with the proper method.
 
 10. I am a deprecated method that welcomes a new user in this project. You know better now. - Using alert npm package
+
+### Part #3 Deployment in Heroku
+
+11. Link: https://heroku-errorhunt.herokuapp.com/
